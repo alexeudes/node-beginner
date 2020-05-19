@@ -19,6 +19,13 @@ app.get('/html', (request, response) => {
     body = '<h1>HTML</h1>'
 });
 
+app.get('/json/:id?', (request, response) => {
+    response.send({
+        id: request.params.id || request.query.id || 1,
+        route: 'json'
+    });
+});
+
 app.listen(PORT, getPort);
 
 function getPort() {
