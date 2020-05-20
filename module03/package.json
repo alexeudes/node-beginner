@@ -1,0 +1,12 @@
+{
+  "name": "module03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filereader.js",
+  "scripts": {
+    "start": "node filereader.js"
+  },
+  "keywords": [],
+  "author": "Alex Eudes",
+  "license": "ISC"
+}
